@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="overlay">
+    <h1 id="title">
+      Survey Form
+    </h1>
+    <p id="description">Please fill-up this form</p>
+    <form id="survey-form">
+      <label id="name-label">Name: 
+        <input required type="text" id="name" placeholder="Name here">
+      </label>
+      <label id="email-label">Email: 
+        <input required type="email" id="email" placeholder="Email here">
+      </label>
+      <label id="number-label"> Age: 
+        <input required type="number" id="number" min="0" max="99" placeholder="Age here">
+      </label>
+      <label>Do you have a favorite fruit?
+        <select id="dropdown">
+          <option disabled selected value="">Select</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </label>
+      <label>Nani?
+        <div><input type="radio" name="choosy" value="eme"> Wasdsa</div>
+        <div><input type="radio" name="choosy" value="luhh"> askdjaskldj</div>
+      </label>
+      <div class="adjust"><label>Select all fruits you eat:
+        <div><input type="checkbox" value="urur"> Mango</div>
+        <div><input type="checkbox" value="luh"> Apple</div></div>
+      </label>
+      <div class="adjust">Place Comment Here:
+      <textarea rows="4" placeholder="Comments..."></textarea></div>
+      <div class="sbsb"><button id="submit">Submit</button></div>
+    </form>
+    </div>
+  </body>
+</html>

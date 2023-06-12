@@ -1,0 +1,70 @@
+body {
+      background-image: url(https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/WORKPLACEV9CMS/wr-vv_u_fekgnklqqtiauq.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color:#fff;
+      font-family:verdana;
+}
+
+.overlay {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 255, 0.5);
+      backdrop-filter: blur(3px);
+      background-size: cover;
+      position:fixed;
+      overflow-y: auto;
+}
+
+h1,p{
+  text-align:center;
+}
+
+form{
+  background-color:rgba(0, 0, 0, 0.5);
+  margin:0 4% 0 4%;
+  padding: 20px;
+  border-radius:5px 5px 0 0;
+}
+
+input, select{
+  width:100%;
+  margin: 10px 0 20px 0;
+  height:2em;
+}
+
+textarea{
+  width:100%;
+  margin: 10px 0 20px 0;
+}
+
+input[type="checkbox"],input[type="radio"] {
+  height:auto;
+  width: unset;
+  margin:10px 0 0 0;
+  vertical-align: low;
+  
+}
+
+.sbsb{
+  display: flex;
+  justify-content: center;
+}
+
+.sbsb button{
+  padding:10px 30%;
+  background-color:rgba(0,160,0,1);
+  border-radius: 5px;
+  border:0;
+  font-family:verdana;
+  font-size:120%;
+  color:white;
+}
+
+.adjust{
+  margin: 20px 0 0 0;
+}
